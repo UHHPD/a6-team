@@ -1,4 +1,4 @@
-#ifndef ZYLINDERMANTEL_HH
+ #ifndef ZYLINDERMANTEL_HH
 #define ZYLINDERMANTEL_HH
 
 #include "Vektor.hh"

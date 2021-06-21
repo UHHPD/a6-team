@@ -1,2 +1,2 @@
 language = "cpp"
-run = ""
+run = "g++ traegheit.cc Vektor.cc Vollzylinder.cc Zylindermantel.cc -o traegheit && ./traegheit"
