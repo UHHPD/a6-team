@@ -3,6 +3,8 @@
 #include <cmath>
 #include <cstdlib>
 
+using namespace std;
+
 Vollzylinder::Vollzylinder(double nr, double nl) {
   r_ = nr;
   l_ = nl;
@@ -17,3 +19,7 @@ Vektor Vollzylinder::punkt() {
   double y = R * sin(phi);
   return Vektor(x, y, z);
 };
+
+string Vollzylinder::name() {
+  return "Vollzylinder";
+}

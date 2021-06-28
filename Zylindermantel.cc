@@ -19,3 +19,7 @@ Vektor Zylindermantel::punkt() {
   double y = R * sin(phi);
   return Vektor(x, y, z);
 }
+
+string Zylindermantel::name() {
+  return "Zylindermantel";
+}

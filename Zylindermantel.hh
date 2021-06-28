@@ -1,13 +1,15 @@
- #ifndef ZYLINDERMANTEL_HH
+#ifndef ZYLINDERMANTEL_HH
 #define ZYLINDERMANTEL_HH
-
 #include "Vektor.hh"
+#include "Koerper.hh"
 
-class Zylindermantel {
+class Zylindermantel : public Koerper{
 public:
   Zylindermantel(double nr, double nl);
 
   Vektor punkt();
+
+  std::string name();
 
 private:
   double r_, l_;
