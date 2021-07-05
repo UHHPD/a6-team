@@ -38,7 +38,7 @@ int main() {
   cout << "Länge:\n";
   cin >> ZM_L;
 
-  Vektor a(0,0,0);
+  Vektor a(0,ZM_R,0);
   Vektor u(0,0,1);
 
   unique_ptr<Koerper> k1(new Zylindermantel(ZM_R, ZM_L));
